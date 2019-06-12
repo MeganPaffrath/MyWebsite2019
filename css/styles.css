@@ -91,13 +91,17 @@ h4 {
 p {
   text-align: justify;
 }
-.section {
-  background-color: #f6f5f5;
+.section-pd {
   padding: 20px 0;
 }
-.section-other {
-  background-color: $fff;
-  padding: 20px 0;
+.section-pd-bottom {
+  padding: 0 0 20px 0;
+}
+.section-dark {
+  background-color: #f6f5f5;
+}
+.section-light{
+  background-color: #fff;
 }
 .center-tb {
   margin: auto 0;
