@@ -123,6 +123,25 @@ p {
   color: white;
   text-decoration: underline;
 }
+/*----------------------------------- Collapseable buttons: */
+.card-body {
+  font-size: 16px;
+}
+.card-body a{
+  color: #4592af;
+}
+.card-body a:hover{
+  color: #e3c4a8;
+}
+.btn-color {
+  background-color: #4592af;
+  color: #f6f5f5;
+  font-weight: bold;
+}
+.btn-color:hover{
+  background-color: #e3c4a8;
+  color: #4592af;
+}
 
 /*----------------------------------- PHOTOS: */
 .megan_paffrath {
