@@ -119,6 +119,10 @@ p {
 .font-small-50 {
   font-size: 50%;
 }
+.badge a{
+  color: white;
+  text-decoration: underline;
+}
 
 /*----------------------------------- PHOTOS: */
 .megan_paffrath {
