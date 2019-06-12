@@ -74,13 +74,30 @@ html, body {
 /*----------------------------------------------------- CONTENT: */
 h1 {
   color: #4592af;
+  text-align: center;
+}
+h2 {
+  color: #e3c4a8;
+  text-align: center;
+}
+h3 {
+  color: #33313b;
+  text-align: center;
+}
+h4 {
+  color: #33313b;
+  text-align: left;
 }
 p {
   text-align: justify;
 }
 .section {
   background-color: #f6f5f5;
-  padding: 10px 0;
+  padding: 20px 0;
+}
+.section-other {
+  background-color: $fff;
+  padding: 20px 0;
 }
 .center-tb {
   margin: auto 0;
