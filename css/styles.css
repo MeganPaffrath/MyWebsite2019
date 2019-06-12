@@ -95,7 +95,7 @@ p {
   padding: 20px 0;
 }
 .section-pd-bottom {
-  padding: 0 0 20px 0;
+  padding-bottom: 20px;
 }
 .section-dark {
   background-color: #f6f5f5;
