@@ -110,6 +110,15 @@ p {
   background-color: #4592af;
   color: #f6f5f5;
 }
+.font-small-70 {
+  font-size: 70%;
+}
+.font-small-60 {
+  font-size: 60%;
+}
+.font-small-50 {
+  font-size: 50%;
+}
 
 /*----------------------------------- PHOTOS: */
 .megan_paffrath {
