@@ -72,6 +72,12 @@ html, body {
 }
 
 /*----------------------------------------------------- CONTENT: */
+h1 {
+  color: #4592af;
+}
+p {
+  text-align: justify;
+}
 .section {
   background-color: #f6f5f5;
   padding: 10px 0;
@@ -83,6 +89,7 @@ html, body {
   background-color: #4592af;
   color: #f6f5f5;
 }
+
 /*----------------------------------- PHOTOS: */
 .megan_paffrath {
   width: 50%;
