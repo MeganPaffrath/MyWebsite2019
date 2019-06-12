@@ -1,0 +1,125 @@
+/*
+Colors:
+ background #f6f5f5
+ #e3c4a8
+ #4592af
+ text #33313b
+*/
+
+body {
+  font-family: 'Maven Pro', sans-serif;
+  color: #33313b;
+  background-color: #fff;
+}
+
+/*----------------------------------------------------- Footer To Bottom: */
+
+html, body {
+    height: 100%;
+}
+
+#all-content-but-footer-container {
+  min-height: 100%;
+}
+
+#all-content-but-footer {
+    overflow: auto; /*get scroll bar with more content*/
+    padding-bottom: 110px; /*height of footer */
+}
+#footer {
+    position: relative;
+    height: 110px;
+    margin-top: -110px;
+    clear: both;
+    background-color: #4592af;
+}
+
+/*----------------------------------------------------- NAVBAR: */
+
+.bg-color {
+  background-color: #33313b;
+}
+.navbar-dark .navbar-brand{
+  color: #e3c4a8;
+}
+.navbar-dark .navbar-brand:hover{
+  color: #e3c4a8;
+}
+.nav-element {
+  padding-right: .5rem;
+  padding-left: .5rem;
+  display: block;
+  padding: .5rem 1rem;
+}
+.fa-bars{
+  color: #e3c4a8;
+}
+
+.nav-item a:link {
+  /* unvisited link */
+  color: #e3c4a8;
+}
+.nav-item a:visited{
+  /* visited link */
+  color: #e3c4a8;
+}
+.nav-item a:hover{
+  /* hover link */
+  color: #f6f5f5;
+}
+.brand {
+  font-weight: 400;
+}
+.navbar {
+  padding: .5rem 0rem;
+}
+
+/*----------------------------------------------------- CONTENT: */
+.section {
+  background-color: #f6f5f5;
+  padding: 10px 0;
+}
+.center-tb {
+  margin: auto 0;
+}
+.badge-blue {
+  background-color: #4592af;
+  color: #f6f5f5;
+}
+/*----------------------------------- PHOTOS: */
+.megan_paffrath {
+  width: 50%;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+/*----------------------------------------------------- FOOTER: */
+.footer-line {
+  background-color: #33313b;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+}
+.socials {
+  /*60px*/
+  box-sizing: border-box;
+  background-color: #33313b;
+  background-color: #4592af;
+  color: #f6f5f5;
+  font-size: 30px;
+  padding: 10px 0;
+  line-height: 30px;
+  margin: 0;
+}
+/* .socials ul{
+  margin: 0;
+  padding: 0;
+} */
+.footer-copyright {
+  /*30px*/
+  background-color: #4592af;
+  color: #e3c4a8;
+  font-size: 15px;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
