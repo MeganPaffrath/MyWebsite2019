@@ -103,6 +103,18 @@ h4 {
 p {
   text-align: justify;
 }
+/*----------------------------------- Links: */
+a:link {
+  color: #4592af;
+}
+
+a:visited {
+  color: #4592af;
+}
+
+a:hover {
+  color: #e3c4a8;
+}
 
 /*----------------------------------- Section/pad: */
 .section-pd {
@@ -176,12 +188,43 @@ p {
   background-color: #e3c4a8;
   color: #4592af;
 }
+/*----------------------------------- ALIGNMENT: */
+.align-right {
+  text-align: right;
+}
 
 /*----------------------------------- PHOTOS: */
 .megan_paffrath {
   width: 50%;
   border-radius: 50%;
   margin: 10px 0;
+}
+
+.square-photo {
+  width: 30%;
+  border-radius: 5%;
+  opacity: .5;
+}
+
+.photo-color {
+  filter: invert(50%) sepia(65%) saturate(356%) hue-rotate(151deg) brightness(91%) contrast(92%);
+}
+
+
+
+/*----------------------------------------------------- Projects: */
+.project-photo {
+  float: left;
+  margin-right: 10px;
+}
+
+.project-description {
+  margin: 0;
+  padding: 0;
+}
+
+.hover-photo-link:hover {
+  opacity: 1;
 }
 
 /*----------------------------------------------------- FOOTER: */
